@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>jQuery Offset Animation</title>
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="scripts/jquery.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
@@ -22,6 +22,6 @@
 			</div>
 		</div>
 	</div>
-	
+
 </body>
 </html>
