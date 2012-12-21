@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>Convert English Number to Persian Number</title>
+	<script type="text/javascript">
+var replaceDigits = function() {
+	var map = ["&\#1776;","&\#1777;","&\#1778;","&\#1779;","&\#1780;", "&\#1781;","&\#1782;","&\#1783;","&\#1784;","&\#1785;"]
+	document.body.innerHTML = document.body.innerHTML.replace(/\d(?=[^<>]*(<|$))/g, function($0) { return map[$0]});
+}
+ window.onload = replaceDigits;
+</script>
+<style type="text/css">
+		@font-face {
+		    font-family: 'Nazanin';
+		    src: url('fonts/BNazanin.eot');
+		    src: url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+		         url('fonts/BNazanin.woff') format('woff'),
+		         url('fonts/BNazanin.ttf') format('truetype');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		body {
+			font-family: 'Nazanin', Arial, sans-serif;
+			font-size: 32px;
+			color:red;
+			-webkit-font-smoothing : antialiased;
+		}
+		
+	</style>
+</head>
+<body>
+	<p>سلام سلام 524 سلام 545 ندئنتدرب 545اتینازنی </p>
+</body>
+</html>
